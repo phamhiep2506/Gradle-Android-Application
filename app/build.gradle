@@ -10,6 +10,8 @@ repositories {
 android {
     namespace 'com.example.test'
 
+    buildToolsVersion '33.0.2'
+
     compileSdkVersion 33
 
     defaultConfig {

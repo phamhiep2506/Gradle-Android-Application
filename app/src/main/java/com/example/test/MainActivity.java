@@ -7,7 +7,7 @@ import android.widget.TextView;
 public class MainActivity extends Activity {
 
     static {
-        System.loadLibrary("test");
+        System.loadLibrary("main");
     }
 
     public native String getMessage();
