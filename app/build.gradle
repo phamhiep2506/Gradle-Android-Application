@@ -1,0 +1,25 @@
+plugins {
+    id 'com.android.application' version '7.4.1'
+}
+
+repositories {
+    google()
+    mavenCentral()
+}
+
+android {
+    namespace 'com.example.test'
+
+    compileSdkVersion 33
+
+    defaultConfig {
+        applicationId 'com.example.test'
+        minSdkVersion 26
+        targetSdkVersion 33
+        versionCode 1
+        versionName '1.0'
+    }
+}
+
+dependencies {
+}
